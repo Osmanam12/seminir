@@ -1,0 +1,117 @@
+Mar-15 17:02:39.129 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf --input assets/samplesheet_seminar.csv --outdir outdir -profile singularity
+Mar-15 17:02:39.192 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 25.04.8
+Mar-15 17:02:39.207 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/StudentHome/2021/a21sande/.nextflow/plugins; core-plugins: nf-amazon@2.15.0-patch2,nf-azure@1.16.0-patch1,nf-cloudcache@0.4.3,nf-codecommit@0.2.3,nf-console@1.2.1,nf-google@1.21.1,nf-k8s@1.0.1,nf-tower@1.11.4-patch2,nf-wave@1.12.1
+Mar-15 17:02:39.222 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Mar-15 17:02:39.222 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Mar-15 17:02:39.224 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.12.0 in 'deployment' mode
+Mar-15 17:02:39.232 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Mar-15 17:02:39.247 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/StudentHome/2021/a21sande/seminir/nextflow.config
+Mar-15 17:02:39.248 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/StudentHome/2021/a21sande/seminir/nextflow.config
+Mar-15 17:02:39.269 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/StudentHome/2021/a21sande/.nextflow/secrets/store.json
+Mar-15 17:02:39.272 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@469d003c] - activable => nextflow.secret.LocalSecretsProvider@469d003c
+Mar-15 17:02:39.282 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `singularity`
+Mar-15 17:02:40.260 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [bih, cfc_dev, uzl_omics, ifb_core, embl_hd, denbi_qbic, alice, mjolnir_globe, uppmax, giga, incliva, ilifu, ki_luria, uge, icr_alma, rosalind_uge, lugh, mccleary, unibe_ibu, vai, czbiohub_aws, jax, roslin, iris, tes, scw, unc_longleaf, tigem, tubingen_apg, apollo, ipop_up, vsc_calcua, pdc_kth, ceci_nic5, ccga_cau, humantechnopole, stjude, daisybio, eddie, medair, biowulf, apptainer, bi, bigpurple, adcra, cedars, pawsey_setonix, vsc_kul_uhasselt, pawsey_nimbus, rki, ucl_myriad, utd_ganymede, charliecloud, fred_hutch, seattlechildrens, icr_davros, ceres, arm, munin, rosalind, hasta, cfc, uzh, shu_bmrc, ebi_codon_slurm, ebc, ccga_dx, crick, ku_sund_danhead, marvin, lrz_cm4, shifter, biohpc_gen, mana, mamba, york_viking, unc_lccc, wehi, awsbatch, wustl_htcf, arcc, ceci_dragon2, imperial, maestro, software_license, cannon, genotoul, nci_gadi, abims, eva_grace, janelia, nu_genomics, googlebatch, oist, sahmri, kaust, alliance_canada, mpcdf, leicester, vsc_ugent, create, sage, cambridge, jex, podman, ebi_codon, cheaha, xanadu, nyu_hpc, test, marjorie, computerome, ucd_sonic, gpu, seg_globe, mssm, sanger, dkfz, bluebear, pasteur, einstein, ethz_euler, m3c, test_full, imb, ucl_cscluster, tuos_stanage, azurebatch, seadragon, crukmi, csiro_petrichor, qmul_apocrita, wave, docker, engaging, gis, hypatia, psmn, eva, unity, cropdiversityhpc, nygc, fgcz, conda, crg, singularity, mpcdf_viper, dirac, self_hosted_runner, tufts, uw_hyak_pedslabs, binac2, debug, hki_genie, genouest, cbe, unsw_katana, utd_juno, phoenix, seawulf, uod_hpc, fub_curta, lovelace, uct_hpc, aws_tower, fsu_draco]
+Mar-15 17:02:40.282 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
+Mar-15 17:02:40.291 [main] DEBUG nextflow.cli.CmdRun - Launching `main.nf` [stupefied_mclean] DSL2 - revision: ea062a28e2
+Mar-15 17:02:40.292 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins declared=[nf-schema@2.4.2]
+Mar-15 17:02:40.292 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Mar-15 17:02:40.293 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[nf-schema@2.4.2]
+Mar-15 17:02:40.294 [main] DEBUG nextflow.plugin.PluginUpdater - Installing plugin nf-schema version: 2.4.2
+Mar-15 17:02:40.307 [main] INFO  org.pf4j.AbstractPluginManager - Plugin 'nf-schema@2.4.2' resolved
+Mar-15 17:02:40.307 [main] INFO  org.pf4j.AbstractPluginManager - Start plugin 'nf-schema@2.4.2'
+Mar-15 17:02:40.311 [main] DEBUG nextflow.plugin.BasePlugin - Plugin started nf-schema@2.4.2
+Mar-15 17:02:40.350 [main] DEBUG nextflow.Session - Session UUID: 98551af9-e85b-45ca-b61f-642a19054fd8
+Mar-15 17:02:40.350 [main] DEBUG nextflow.Session - Run name: stupefied_mclean
+Mar-15 17:02:40.350 [main] DEBUG nextflow.Session - Executor pool size: 8
+Mar-15 17:02:40.356 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Mar-15 17:02:40.359 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+Mar-15 17:02:40.373 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 25.04.8 build 5956
+  Created: 06-10-2025 21:19 UTC (23:19 CEST)
+  System: Linux 5.15.0-171-generic
+  Runtime: Groovy 4.0.26 on OpenJDK 64-Bit Server VM 17.0.18+8-Ubuntu-122.04.1
+  Encoding: UTF-8 (UTF-8)
+  Process: 2871246@ibilinux1 [10.10.57.21]
+  CPUs: 8 - Mem: 15.6 GB (1.7 GB) - Swap: 3.8 GB (3.6 GB)
+Mar-15 17:02:40.386 [main] DEBUG nextflow.Session - Work-dir: /home/StudentHome/2021/a21sande/seminir/work [ext2/ext3]
+Mar-15 17:02:40.386 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/StudentHome/2021/a21sande/seminir/bin
+Mar-15 17:02:40.394 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Mar-15 17:02:40.401 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Mar-15 17:02:40.418 [main] DEBUG nextflow.Session - Observer factory: ValidationObserverFactory
+Mar-15 17:02:40.422 [main] DEBUG nextflow.Session - Observer factory (v2): LinObserverFactory
+Mar-15 17:02:40.440 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Mar-15 17:02:40.446 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 9; maxThreads: 1000
+Mar-15 17:02:40.487 [main] DEBUG nextflow.Session - Session start
+Mar-15 17:02:40.490 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: /home/StudentHome/2021/a21sande/seminir/outdir/pipeline_info/execution_trace_2026-03-15_17-02-39.txt
+Mar-15 17:02:40.496 [main] DEBUG n.validation.config.ValidationConfig - Set `validation.monochromeLogs` to false
+Mar-15 17:02:40.498 [main] DEBUG n.validation.config.ValidationConfig - Added the following parameters to the ignored parameters: [genomes]
+Mar-15 17:02:40.500 [main] DEBUG n.validation.config.HelpConfig - Set `validation.help.enabled` to true
+Mar-15 17:02:40.501 [main] DEBUG n.validation.config.HelpConfig - Set `validation.help.showHiddenParameter` to show_hidden
+Mar-15 17:02:40.501 [main] DEBUG n.validation.config.HelpConfig - Set `validation.help.showHidden` to false (Due to --show_hidden)
+Mar-15 17:02:40.502 [main] DEBUG n.validation.config.HelpConfig - Set `validation.help.fullParameter` to help_full
+Mar-15 17:02:40.509 [main] DEBUG n.validation.config.HelpConfig - Set `validation.help.command` to nextflow run nf-core/sem -profile <docker/singularity/.../institute> --input samplesheet.csv --outdir <OUTDIR>
+Mar-15 17:02:40.598 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Mar-15 17:02:40.638 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryMap:paramsSummaryMap]; plugin Id: nf-schema
+Mar-15 17:02:40.643 [main] DEBUG n.validation.config.ValidationConfig - Set `validation.monochromeLogs` to false
+Mar-15 17:02:40.643 [main] DEBUG n.validation.config.ValidationConfig - Added the following parameters to the ignored parameters: [genomes]
+Mar-15 17:02:40.643 [main] DEBUG n.validation.config.HelpConfig - Set `validation.help.enabled` to true
+Mar-15 17:02:40.643 [main] DEBUG n.validation.config.HelpConfig - Set `validation.help.showHiddenParameter` to show_hidden
+Mar-15 17:02:40.643 [main] DEBUG n.validation.config.HelpConfig - Set `validation.help.showHidden` to false (Due to --show_hidden)
+Mar-15 17:02:40.643 [main] DEBUG n.validation.config.HelpConfig - Set `validation.help.fullParameter` to help_full
+Mar-15 17:02:40.644 [main] DEBUG n.validation.config.HelpConfig - Set `validation.help.command` to nextflow run nf-core/sem -profile <docker/singularity/.../institute> --input samplesheet.csv --outdir <OUTDIR>
+Mar-15 17:02:40.926 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryLog:paramsSummaryLog]; plugin Id: nf-schema
+Mar-15 17:02:40.927 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [validateParameters:validateParameters]; plugin Id: nf-schema
+Mar-15 17:02:40.929 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryMap:paramsSummaryMap]; plugin Id: nf-schema
+Mar-15 17:02:40.929 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [samplesheetToList:samplesheetToList]; plugin Id: nf-schema
+Mar-15 17:02:41.092 [main] INFO  nextflow.Nextflow - [1mInput/output options[0m
+  [0;34minput              : [0;32massets/samplesheet_seminar.csv[0m
+  [0;34moutdir             : [0;32moutdir[0m
+
+[1mGeneric options[0m
+  [0;34mtrace_report_suffix: [0;32m2026-03-15_17-02-39[0m
+
+[1mCore Nextflow options[0m
+  [0;34mrunName            : [0;32mstupefied_mclean[0m
+  [0;34mcontainerEngine    : [0;32msingularity[0m
+  [0;34mlaunchDir          : [0;32m/home/StudentHome/2021/a21sande/seminir[0m
+  [0;34mworkDir            : [0;32m/home/StudentHome/2021/a21sande/seminir/work[0m
+  [0;34mprojectDir         : [0;32m/home/StudentHome/2021/a21sande/seminir[0m
+  [0;34muserName           : [0;32ma21sande@hs.local[0m
+  [0;34mprofile            : [0;32msingularity[0m
+  [0;34mconfigFiles        : [0;32m/home/StudentHome/2021/a21sande/seminir/nextflow.config[0m
+
+!! Only displaying parameters that differ from the pipeline defaults !!
+-[2m----------------------------------------------------[0m-
+Mar-15 17:02:41.096 [main] DEBUG n.v.parameters.ParameterValidator - Starting parameters validation
+Mar-15 17:02:41.174 [main] DEBUG n.v.v.evaluators.SchemaEvaluator - Started validating /home/StudentHome/2021/a21sande/seminir/assets/samplesheet_seminar.csv
+Mar-15 17:02:41.824 [main] DEBUG n.v.v.evaluators.SchemaEvaluator - Validation of file 'assets/samplesheet_seminar.csv' passed!
+Mar-15 17:02:41.828 [main] DEBUG n.v.parameters.ParameterValidator - Finishing parameters validation
+Mar-15 17:02:42.496 [main] WARN  n.v.samplesheet.SamplesheetConverter - Found the following unidentified headers in /home/StudentHome/2021/a21sande/seminir/assets/samplesheet_seminar.csv:
+	- strandedness
+
+Mar-15 17:02:42.552 [main] DEBUG nextflow.Session - Config process names validation disabled as requested
+Mar-15 17:02:42.554 [main] DEBUG nextflow.Session - Igniting dataflow network (4)
+Mar-15 17:02:42.555 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_631583951e4bd2d6: /home/StudentHome/2021/a21sande/seminir/workflows/sem.nf
+  Script_5c4e8d4051efa81e: /home/StudentHome/2021/a21sande/seminir/subworkflows/nf-core/utils_nfcore_pipeline/main.nf
+  Script_346c8a607c35a293: /home/StudentHome/2021/a21sande/seminir/main.nf
+  Script_1a5b25900530524a: /home/StudentHome/2021/a21sande/seminir/subworkflows/local/utils_nfcore_sem_pipeline/main.nf
+  Script_4f612cfd8c52e8cd: /home/StudentHome/2021/a21sande/seminir/subworkflows/nf-core/utils_nextflow_pipeline/main.nf
+  Script_215a636da7ab24a2: /home/StudentHome/2021/a21sande/seminir/subworkflows/nf-core/utils_nfschema_plugin/main.nf
+Mar-15 17:02:42.556 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Mar-15 17:02:42.556 [main] DEBUG nextflow.Session - Session await
+Mar-15 17:02:42.556 [main] DEBUG nextflow.Session - Session await > all processes finished
+Mar-15 17:02:42.556 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Mar-15 17:02:42.611 [Actor Thread 4] DEBUG nextflow.sort.BigSort - Sort completed -- entries: 1; slices: 1; internal sort time: 0.001 s; external sort time: 0.008 s; total time: 0.009 s
+Mar-15 17:02:42.615 [Actor Thread 4] DEBUG nextflow.file.FileCollector - Saved collect-files list to: /home/StudentHome/2021/a21sande/seminir/work/collect-file/9aad59cdfb1c81f2698337f05e011794
+Mar-15 17:02:42.621 [Actor Thread 4] DEBUG nextflow.file.FileCollector - Deleting file collector temp dir: /tmp/nxf-15236058425574310137
+Mar-15 17:02:42.627 [main] INFO  nextflow.Nextflow - -[0;35m[nf-core/sem][0;32m Pipeline completed successfully[0m-
+Mar-15 17:02:42.631 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=0; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=0ms; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=0; peakCpus=0; peakMemory=0; ]
+Mar-15 17:02:42.631 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow completed -- saving trace file
+Mar-15 17:02:42.632 [main] DEBUG nextflow.trace.ReportObserver - Workflow completed -- rendering execution report
+Mar-15 17:02:42.969 [main] DEBUG nextflow.trace.TimelineObserver - Workflow completed -- rendering execution timeline
+Mar-15 17:02:43.098 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Mar-15 17:02:43.108 [main] INFO  org.pf4j.AbstractPluginManager - Stop plugin 'nf-schema@2.4.2'
+Mar-15 17:02:43.108 [main] DEBUG nextflow.plugin.BasePlugin - Plugin stopped nf-schema
+Mar-15 17:02:43.110 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+Mar-15 17:02:43.111 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

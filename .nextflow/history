@@ -1,0 +1,16 @@
+2026-03-12 21:50:57	4.9s	shrivelled_shirley	OK	ea062a28e2f654060dbe93b747f35bc1	652f5bb1-8047-463b-8867-df38e9391ce5	nextflow run main.nf --input assets/samplesheet_seminar.csv --outdir results
+2026-03-12 22:24:51	3.8s	suspicious_aryabhata	OK	ea062a28e2f654060dbe93b747f35bc1	79e87efa-d695-49f8-a8f0-8f8d33922304	nextflow run main.nf --input assets/samplesheet_seminar.csv --outdir results
+2026-03-15 16:19:14	-	chaotic_morse	-	ea062a28e2f654060dbe93b747f35bc1	7729e2b4-aa0d-4337-b2b2-892832f05e14	nextflow run main.nf
+2026-03-15 16:19:55	-	irreverent_pesquet	-	ea062a28e2f654060dbe93b747f35bc1	f9187b67-b689-4ea5-972e-66b82b52f17b	nextflow run main.nf --input assets/sample
+2026-03-15 16:20:13	3.7s	lethal_bassi	OK	ea062a28e2f654060dbe93b747f35bc1	3a5463b5-5e6d-41da-ac99-181910e23e6c	nextflow run main.nf --input assets/samplesheet_seminar.csv --outdir outdir
+2026-03-15 16:24:47	-	confident_panini	-	ea062a28e2f654060dbe93b747f35bc1	4974ea0a-0b49-49d2-a71d-185a553c4a6e	nextflow run main.nf
+2026-03-15 16:33:20	-	elated_gautier	-	ea062a28e2f654060dbe93b747f35bc1	48076d05-9ace-4a8b-b31e-74029c246fb8	nextflow run main.nf
+2026-03-15 16:33:31	3.5s	focused_bose	OK	ea062a28e2f654060dbe93b747f35bc1	bfaf846f-0fdf-4a16-90fa-7f5e36b0e329	nextflow run main.nf --input assets/samplesheet_seminar.csv --outdir outdir
+2026-03-15 16:43:14	-	cheesy_jones	-	ea062a28e2f654060dbe93b747f35bc1	793f02e4-906f-499c-95f1-737be9fe8b32	nextflow run main.nf
+2026-03-15 16:48:07	-	agitated_brenner	-	ea062a28e2f654060dbe93b747f35bc1	28a9571b-474d-427c-a38c-ef865cfaa57f	nextflow run main.nf
+2026-03-15 16:48:45	-	cheeky_ochoa	-	ea062a28e2f654060dbe93b747f35bc1	7d1fbbf7-4222-46ec-bc2e-970c113d6da9	nextflow run main.nf
+2026-03-15 16:49:41	3.5s	trusting_pike	OK	ea062a28e2f654060dbe93b747f35bc1	f3e5f847-c590-4ee7-8aeb-67caff31a15c	nextflow run main.nf --input assets/samplesheet_seminar.csv --outdir outdir
+2026-03-15 16:52:24	2.9s	berserk_cray	OK	ea062a28e2f654060dbe93b747f35bc1	b981b0dd-c985-40f8-95e1-1707995a9778	nextflow run main.nf --input assets/samplesheet_seminar.csv --outdir outdir -profile singularity
+2026-03-15 16:59:11	2.8s	hungry_murdock	OK	ea062a28e2f654060dbe93b747f35bc1	44b42363-787d-4cb5-8d9e-67e5aa3551d6	nextflow run main.nf --input assets/samplesheet_seminar.csv --outdir outdir -profile singularity
+2026-03-15 16:59:35	3.3s	condescending_lovelace	OK	ea062a28e2f654060dbe93b747f35bc1	c38c9638-4c8d-4537-bb46-5a5e5e4d03e6	nextflow run main.nf --input assets/samplesheet_seminar.csv --outdir outdir -profile singularity
+2026-03-15 17:02:40	3.1s	stupefied_mclean	OK	ea062a28e2f654060dbe93b747f35bc1	98551af9-e85b-45ca-b61f-642a19054fd8	nextflow run main.nf --input assets/samplesheet_seminar.csv --outdir outdir -profile singularity
