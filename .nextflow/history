@@ -1,0 +1,2 @@
+2026-03-16 14:08:44	-	grave_shannon	-	e29d0d19cd51773589591fbaca9f818c	4e0b4b4d-f1bb-4923-95ee-d5d0d39b4d4b	nextflow run main.nf --input seminir/assets/samplesheet_seminar.csv --outdir output -profile singularity
+2026-03-16 14:09:05	-	nauseous_ochoa	-	e29d0d19cd51773589591fbaca9f818c	037bcceb-3aba-46f5-afbd-af8e7362ce81	nextflow run main.nf --input assets/samplesheet_seminar.csv --outdir output -profile singularity
